@@ -294,6 +294,10 @@ h6 {
 .header__hide {
   display: none;
 }
+.header__bottom {
+  position: relative;
+  z-index: 2;
+}
 .header__bottom.mobile {
   display: none;
 }
