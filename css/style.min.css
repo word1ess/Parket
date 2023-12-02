@@ -330,7 +330,7 @@ h6 {
   display: none;
   position: absolute;
   bottom: 0px;
-  width: calc(100% - 30px);
+  width: calc(100% - 60px);
   height: 60px;
   background: #8f5d42;
   transform: translate(0%, -100%);
@@ -643,5 +643,8 @@ body {
 @media only screen and (max-width: 450px) {
   .container {
     padding: 0px 15px;
+  }
+  .header__search.mobile {
+    width: calc(100% - 30px);
   }
 }
