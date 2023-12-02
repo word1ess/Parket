@@ -1,0 +1,163 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script defer src="js/app.min.js"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img src="img/svgicons/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <div class="header__menu">
+                <div class="header__top">
+                    <div class="header__links header-links">
+                        <div class="header-links__top">
+                            <a href="tel:+7 (495) 999-90-62" class="header__link">
+                                <img src="img/svgicons/phone.svg" alt="phone">
+                                8 (495) 999-90-62
+                            </a>
+                            <a href="tel:+7 (495) 730-18-03" class="header__link">
+                                <img src="img/svgicons/phone.svg" alt="phone">
+                                8 (495) 999-90-62
+                            </a>
+                        </div>
+                        <button data-modal="callback" class="header-links__bottom">
+                            Обратный звонок
+                        </button>
+                    </div>
+                    <div class="header__links header-links">
+                        <div class="header-links__top">
+                            <a href="mailto:6453403@mail.ru" class="header__link">
+                                <img src="img/svgicons/mail.svg" alt="mail">
+                                6453403@mail.ru
+                            </a>
+                        </div>
+                        <button data-modal="callback" class="header-links__bottom">
+                            Обратный звонок
+                        </button>
+                    </div>
+                    <nav class="header__icons pc">
+                        <a href="#" class="header__icon">
+                            <img src="img/svgicons/account.svg" alt="account">
+                        </a>
+                        <a href="#" class="header__icon">
+                            <img src="img/svgicons/favorite.svg" alt="favorite">
+                        </a>
+                        <a href="#" class="header__icon">
+                            <img src="img/svgicons/cart.svg" alt="cart">
+                        </a>
+                    </nav>
+                </div>
+                <nav class="header__bottom mobile header__bottom-nav">
+                    <a href="#">О компании</a>
+                    <a href="#">бренды</a>
+                    <a href="#">акции</a>
+                    <a href="#">услуги</a>
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">возврат</a>
+                    <a href="#">новости</a>
+                    <a href="#">Контакты</a>
+                </nav>
+                <div class="header__slides one mobile">
+                    <div class="header__slide">Паркетная доска</div>
+                    <div class="header__hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia tempora commodi quia! Animi magnam possimus, molestiae deserunt aliquam maiores. Odit eius ab pariatur distinctio exercitationem rerum commodi ex recusandae.</div>
+                    <div class="header__slide">Паркетная доска</div>
+                    <div class="header__hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia tempora commodi quia! Animi magnam possimus, molestiae deserunt aliquam maiores. Odit eius ab pariatur distinctio exercitationem rerum commodi ex recusandae.</div>
+                    <div class="header__slide">Паркетная доска</div>
+                    <div class="header__hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia tempora commodi quia! Animi magnam possimus, molestiae deserunt aliquam maiores. Odit eius ab pariatur distinctio exercitationem rerum commodi ex recusandae.</div>
+                    <div class="header__slide">Паркетная доска</div>
+                    <div class="header__hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat officia tempora commodi quia! Animi magnam possimus, molestiae deserunt aliquam maiores. Odit eius ab pariatur distinctio exercitationem rerum commodi ex recusandae.</div>
+                </div>
+            </div>
+            <nav class="header__icons mobile">
+                <button class="header__icon icon-search-mobile">
+                    <img src="img/svgicons/search-brown.svg" alt="search">
+                </button>
+                <a href="#" class="header__icon">
+                    <img src="img/svgicons/account.svg" alt="account">
+                </a>
+                <a href="#" class="header__icon">
+                    <img src="img/svgicons/favorite.svg" alt="favorite">
+                </a>
+                <a href="#" class="header__icon">
+                    <img src="img/svgicons/cart.svg" alt="cart">
+                </a>
+            </nav>
+        </div>
+        <form action="#" class="header__search mobile popup-search-mobile">
+            <input type="search" placeholder="Поиск по каталогу">
+            <img src="img/svgicons/search.svg" alt="search">
+        </form>
+    </div>
+    <div class="header__bottom pc">
+        <div class="container">
+            <form action="#" class="header__search">
+                <input type="search" placeholder="Поиск по каталогу">
+                <img src="img/svgicons/search.svg" alt="search">
+            </form>
+            <nav class="header__bottom-nav">
+                <a href="#">О компании</a>
+                <a href="#">бренды</a>
+                <a href="#">акции</a>
+                <a href="#">услуги</a>
+                <a href="#">Доставка и оплата</a>
+                <a href="#">возврат</a>
+                <a href="#">новости</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+            <main class="content"></main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__item no-padding">
+                <div class="footer__logo">
+                    <img src="img/svgicons/logo.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <div class="popup popup-callback">
+            <button class="popup__close"></button>
+            <h3 class="popup__title">обратный звонок</h3>
+            <h4 class="popup__subtitle">Ваш персональный менеджер перезвонит вам в течении 30 минут</h4>
+            <label class="popup__input">
+                <input type="text" name="name" placeholder="Ваше имя">
+                <p>Имя</p>
+            </label>
+            <label class="popup__input">
+                <input type="tel" name="phone" placeholder="+7 (xxx) xxx-xx-xx">
+                <p>Телефон</p>
+            </label>
+            <label class="popup__input">
+                <input type="email" name="email" placeholder="test@test.com">
+                <p>Email</p>
+            </label>
+        </div>
+    </body>
+</html>
