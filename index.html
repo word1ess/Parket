@@ -142,7 +142,7 @@
 </footer>
 
         </div>
-        <div class="popup popup-callzamer">
+        <form action="#" class="popup popup-callzamer">
             <button class="popup__close"></button>
             <h3 class="popup__title">вызвать замерщика</h3>
             <h4 class="popup__subtitle">
@@ -166,8 +166,13 @@
                 <input type="time" name="time" placeholder="Часы">
                 <p>Часы</p>
             </label>
-        </div>
-        <div class="popup popup-callback">
+            <label class="popup__checkbox checkbox">
+                <input id="popup__checkbox" class="custom-checkbox" type="checkbox">
+                <p>Согласен с политикой обработки и использования персональных данных</p>
+            </label>
+            <button class="btn">отправить</button>
+        </form>
+        <form action="#" class="popup popup-callback">
             <button class="popup__close"></button>
             <h3 class="popup__title">обратный звонок</h3>
             <h4 class="popup__subtitle">Ваш персональный менеджер перезвонит вам в течении 30 минут</h4>
@@ -183,6 +188,11 @@
                 <input type="email" name="email" placeholder="test@test.com">
                 <p>Email</p>
             </label>
-        </div>
+            <label class="popup__checkbox checkbox">
+                <input id="popup__checkbox" class="custom-checkbox" type="checkbox">
+                <p>Согласен с политикой обработки и использования персональных данных</p>
+            </label>
+            <button class="btn">отправить</button>
+        </form>
     </body>
 </html>
